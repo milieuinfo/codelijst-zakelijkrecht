@@ -369,22 +369,22 @@
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
             "seeAlso": null,
             "definition": "Vol gebruik en genot van andermans onroerend goed",
-            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/zakelijkrecht",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht",
             "notation": "erfpacht",
             "note": "Vol gebruik en genot van andermans onroerend goed",
             "prefLabel": "Erfpacht",
-            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/zakelijkrecht"
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht"
         },
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/opstal",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
             "seeAlso": null,
             "definition": "Recht om bouwwerken op andermans grond te hebben",
-            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/zakelijkrecht",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht",
             "notation": "opstal",
             "note": "Recht om bouwwerken op andermans grond te hebben",
             "prefLabel": "Opstal",
-            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/zakelijkrecht"
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht"
         },
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/volle_eigendom",
@@ -392,11 +392,11 @@
             "seeAlso": null,
             "altLabel": "Gebrek dat leidt tot vochtindringing",
             "definition": "Volledige beschikkingsmacht over een goed",
-            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/zakelijkrecht",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht",
             "notation": "volle_eigendom",
             "note": "Volledige beschikkingsmacht over een goed",
             "prefLabel": "Volle eigendom",
-            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/zakelijkrecht",
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht",
             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
         },
         {
@@ -404,11 +404,11 @@
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
             "seeAlso": null,
             "definition": "Volle eigendom zonder naakte eigendom",
-            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/zakelijkrecht",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht",
             "notation": "vruchtgebruik",
             "note": "Volle eigendom zonder naakte eigendom",
             "prefLabel": "Vruchtgebruik",
-            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/zakelijkrecht"
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht"
         }
     ]
 }

@@ -368,46 +368,46 @@
             "id": "https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/erfpacht",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
             "definition": "Vol gebruik en genot van andermans onroerend goed",
-            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/zakelijkrecht",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht",
             "notation": "erfpacht",
             "note": "Vol gebruik en genot van andermans onroerend goed",
             "prefLabel": "Erfpacht",
-            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/zakelijkrecht"
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht"
         },
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/opstal",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
             "definition": "Recht om bouwwerken op andermans grond te hebben",
-            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/zakelijkrecht",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht",
             "notation": "opstal",
             "note": "Recht om bouwwerken op andermans grond te hebben",
             "prefLabel": "Opstal",
-            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/zakelijkrecht"
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht"
         },
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/volle_eigendom",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
             "altLabel": "Gebrek dat leidt tot vochtindringing",
             "definition": "Volledige beschikkingsmacht over een goed",
-            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/zakelijkrecht",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht",
             "notation": "volle_eigendom",
             "note": "Volledige beschikkingsmacht over een goed",
             "prefLabel": "Volle eigendom",
-            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/zakelijkrecht",
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht",
             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
         },
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/vruchtgebruik",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
             "definition": "Volle eigendom zonder naakte eigendom",
-            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/zakelijkrecht",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht",
             "notation": "vruchtgebruik",
             "note": "Volle eigendom zonder naakte eigendom",
             "prefLabel": "Vruchtgebruik",
-            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/zakelijkrecht"
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht"
         },
         {
-            "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/zakelijkrecht",
+            "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht",
             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-zakelijkrecht",
             "definition": "Een zakelijk recht kan zijn:      volle eigendom     vruchtgebruik (recht om in de woning te wonen, maar geen eigenaar)     erfpacht     opstal     recht van gebruik en/of bewoning  Ook de naakte eigendom is een zakelijk recht, maar niet van die aard dat het u het recht geeft om de woning te bewonen. Om die reden komt u niet in aanmerking voor de premie, tenzij u het recht van bewoning vraagt aan de vruchtgebruiker. Als u gebruik wenst te maken van het recht van bewoning, moet u het bewijs kunnen leveren dat dit recht is vastgelegd in een notariële akte en overgeschreven op het hypotheekkantoor.",
