@@ -1,0 +1,98 @@
+@prefix concept: <https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/>.
+@prefix access_right: <http://publications.europa.eu/resource/authority/access-right/>.
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix assettype: <http://purl.org/adms/assettype/>.
+@prefix chemische_stof: <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/>.
+@prefix compound: <https://pubchem.ncbi.nlm.nih.gov/compound/>.
+@prefix conceptscheme: <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/>.
+@prefix country: <http://publications.europa.eu/resource/authority/country/>.
+@prefix datasets: <https://datasets.omgeving.vlaanderen.be/>.
+@prefix datatheme_be: <http://vocab.belgif.be/auth/datatheme/>.
+@prefix datatheme_eu: <http://publications.europa.eu/resource/authority/data-theme/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix eurovoc: <http://eurovoc.europa.eu/>.
+@prefix file_type: <http://publications.europa.eu/resource/authority/file-type/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix formats: <http://www.w3.org/ns/formats/>.
+@prefix frequency: <http://publications.europa.eu/resource/authority/frequency/>.
+@prefix gemet: <http://www.eionet.europa.eu/gemet/concept/>.
+@prefix licence: <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/>.
+@prefix zakelijkrecht: <https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/>.
+@prefix metadata: <https://data.omgeving.vlaanderen.be/ns/metadata#>.
+@prefix omg_catalog: <https://data.omgeving.vlaanderen.be/id/catalog/>.
+@prefix omg_catalog_doc: <https://data.omgeving.vlaanderen.be/doc/catalog/>.
+@prefix omg_collection: <https://data.omgeving.vlaanderen.be/id/collection/>.
+@prefix omg_dataservice: <https://data.omgeving.vlaanderen.be/id/dataservice/>.
+@prefix omg_dataset_doc: <https://data.omgeving.vlaanderen.be/doc/dataset/>.
+@prefix omg_dataset: <https://data.omgeving.vlaanderen.be/id/dataset/>.
+@prefix omg_distribution_doc: <https://data.omgeving.vlaanderen.be/doc/distribution/>.
+@prefix omg_distribution: <https://data.omgeving.vlaanderen.be/id/distribution/>.
+@prefix omg_graphcollection: <https://data.omgeving.vlaanderen.be/id/graphcollection/>.
+@prefix omg_graph: <https://data.omgeving.vlaanderen.be/id/graph/>.
+@prefix omg_id: <https://data.omgeving.vlaanderen.be/id/>.
+@prefix omg_named_graph: <https://data.omgeving.vlaanderen.be/id/namedgraph/>.
+@prefix omg_ontology: <https://data.omgeving.vlaanderen.be/id/ontology/>.
+@prefix omg_package: <https://data.omgeving.vlaanderen.be/id/package/>.
+@prefix omg_periodoftime: <https://data.omgeving.vlaanderen.be/id/periodoftime/>.
+@prefix omg_service: <https://data.omgeving.vlaanderen.be/id/service/>.
+@prefix omg_vcard: <https://data.omgeving.vlaanderen.be/id/vcard/>.
+@prefix ovo: <http://data.vlaanderen.be/id/organisatie/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix prop: <https://data.omgeving.vlaanderen.be/ns/zakelijkrecht#>.
+@prefix repo: <https://repo.omgeving.vlaanderen.be/artifactory/release/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix spdx: <http://spdx.org/rdf/terms#>.
+@prefix ssd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix thema: <http://www.eionet.europa.eu/gemet/theme/>.
+@prefix ts: <http://www.w3.org/ns/formats/>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix wise: <http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/>.
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+zakelijkrecht:erfpacht a skos:Concept;
+    skos:definition "Vol gebruik en genot van andermans onroerend goed"@nl;
+    skos:inScheme conceptscheme:zakelijkrecht;
+    skos:notation "erfpacht";
+    skos:note "Vol gebruik en genot van andermans onroerend goed"@nl;
+    skos:prefLabel "Erfpacht"@nl;
+    skos:topConceptOf conceptscheme:zakelijkrecht.
+zakelijkrecht:opstal a skos:Concept;
+    skos:definition "Recht om bouwwerken op andermans grond te hebben"@nl;
+    skos:inScheme conceptscheme:zakelijkrecht;
+    skos:notation "opstal";
+    skos:note "Recht om bouwwerken op andermans grond te hebben"@nl;
+    skos:prefLabel "Opstal"@nl;
+    skos:topConceptOf conceptscheme:zakelijkrecht.
+zakelijkrecht:volle_eigendom a skos:Concept;
+    skos:altLabel "Gebrek dat leidt tot vochtindringing"@nl;
+    skos:definition "Volledige beschikkingsmacht over een goed"@nl;
+    skos:inScheme conceptscheme:zakelijkrecht;
+    skos:notation "volle_eigendom";
+    skos:note "Volledige beschikkingsmacht over een goed"@nl;
+    skos:prefLabel "Volle eigendom"@nl;
+    skos:topConceptOf conceptscheme:zakelijkrecht;
+    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
+zakelijkrecht:vruchtgebruik a skos:Concept;
+    skos:definition "Volle eigendom zonder naakte eigendom"@nl;
+    skos:inScheme conceptscheme:zakelijkrecht;
+    skos:notation "vruchtgebruik";
+    skos:note "Volle eigendom zonder naakte eigendom"@nl;
+    skos:prefLabel "Vruchtgebruik"@nl;
+    skos:topConceptOf conceptscheme:zakelijkrecht.
+conceptscheme:zakelijkrecht xkos:belongsTo omg_dataset:codelijst-zakelijkrecht;
+    a skos:ConceptScheme;
+    skos:definition "Een zakelijk recht kan zijn:      volle eigendom     vruchtgebruik (recht om in de woning te wonen, maar geen eigenaar)     erfpacht     opstal     recht van gebruik en/of bewoning  Ook de naakte eigendom is een zakelijk recht, maar niet van die aard dat het u het recht geeft om de woning te bewonen. Om die reden komt u niet in aanmerking voor de premie, tenzij u het recht van bewoning vraagt aan de vruchtgebruiker. Als u gebruik wenst te maken van het recht van bewoning, moet u het bewijs kunnen leveren dat dit recht is vastgelegd in een notariële akte en overgeschreven op het hypotheekkantoor."@nl;
+    skos:hasTopConcept zakelijkrecht:erfpacht, zakelijkrecht:opstal, zakelijkrecht:volle_eigendom, zakelijkrecht:vruchtgebruik;
+    skos:notation "cs_zakelijkrecht";
+    skos:note "Een zakelijk recht kan zijn:      volle eigendom     vruchtgebruik (recht om in de woning te wonen, maar geen eigenaar)     erfpacht     opstal     recht van gebruik en/of bewoning  Ook de naakte eigendom is een zakelijk recht, maar niet van die aard dat het u het recht geeft om de woning te bewonen. Om die reden komt u niet in aanmerking voor de premie, tenzij u het recht van bewoning vraagt aan de vruchtgebruiker. Als u gebruik wenst te maken van het recht van bewoning, moet u het bewijs kunnen leveren dat dit recht is vastgelegd in een notariële akte en overgeschreven op het hypotheekkantoor."@nl;
+    skos:prefLabel "Conceptschema over soorten zakelijk recht."@nl;
+    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.

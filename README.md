@@ -1,1 +1,1 @@
-# codelijst_zakelijkrecht
+# codelijst-zakelijkrecht
