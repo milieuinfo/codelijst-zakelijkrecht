@@ -73,14 +73,12 @@ zakelijkrecht:opstal a skos:Concept;
     skos:prefLabel "Opstal"@nl;
     skos:topConceptOf conceptscheme:zakelijkrecht.
 zakelijkrecht:volle_eigendom a skos:Concept;
-    skos:altLabel "Gebrek dat leidt tot vochtindringing"@nl;
     skos:definition "Volledige beschikkingsmacht over een goed"@nl;
     skos:inScheme conceptscheme:zakelijkrecht;
     skos:notation "volle_eigendom";
     skos:note "Volledige beschikkingsmacht over een goed"@nl;
     skos:prefLabel "Volle eigendom"@nl;
-    skos:topConceptOf conceptscheme:zakelijkrecht;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
+    skos:topConceptOf conceptscheme:zakelijkrecht.
 zakelijkrecht:vruchtgebruik a skos:Concept;
     skos:definition "Volle eigendom zonder naakte eigendom"@nl;
     skos:inScheme conceptscheme:zakelijkrecht;
