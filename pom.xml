@@ -10,7 +10,7 @@
   <packaging>jar</packaging>
   <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
   <artifactId>codelijst-zakelijkrecht</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3</version>
   <name>codelijst-zakelijkrecht</name>
   <description />
 
@@ -18,7 +18,7 @@
     <connection>scm:git:https://github.com/milieuinfo/codelijst-zakelijkrecht.git</connection>
     <developerConnection>scm:git:https://github.com/milieuinfo/codelijst-zakelijkrecht.git</developerConnection>
     <url>https://github.com/milieuinfo/codelijst-zakelijkrecht.git</url>
-    <tag>HEAD</tag>
+    <tag>codelijst-zakelijkrecht-0.0.3</tag>
   </scm>
   <build>
     <plugins>
