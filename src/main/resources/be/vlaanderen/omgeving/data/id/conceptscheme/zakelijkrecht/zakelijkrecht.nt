@@ -13,14 +13,12 @@
 <https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/opstal> <http://www.w3.org/2004/02/skos/core#prefLabel> "Opstal"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/opstal> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht> .
 <https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/volle_eigendom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/volle_eigendom> <http://www.w3.org/2004/02/skos/core#altLabel> "Gebrek dat leidt tot vochtindringing"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/volle_eigendom> <http://www.w3.org/2004/02/skos/core#definition> "Volledige beschikkingsmacht over een goed"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/volle_eigendom> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht> .
 <https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/volle_eigendom> <http://www.w3.org/2004/02/skos/core#notation> "volle_eigendom" .
 <https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/volle_eigendom> <http://www.w3.org/2004/02/skos/core#note> "Volledige beschikkingsmacht over een goed"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/volle_eigendom> <http://www.w3.org/2004/02/skos/core#prefLabel> "Volle eigendom"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/volle_eigendom> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht> .
-<https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/volle_eigendom> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/theme/5> .
 <https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/vruchtgebruik> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/vruchtgebruik> <http://www.w3.org/2004/02/skos/core#definition> "Volle eigendom zonder naakte eigendom"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/zakelijkrecht/vruchtgebruik> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/zakelijkrecht> .
