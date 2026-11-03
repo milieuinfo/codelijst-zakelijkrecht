@@ -19,3 +19,6 @@ src/.env
 src/utils/setenv.js
 src/utils/setenv2.js
 .idea/
+node_modules
+temp
+validation

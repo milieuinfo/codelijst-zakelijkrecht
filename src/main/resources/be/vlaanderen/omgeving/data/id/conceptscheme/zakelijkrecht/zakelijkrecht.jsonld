@@ -1,5 +1,8 @@
 {
     "@context": {
+        "provenance": {
+            "@id": "http://purl.org/dc/terms/provenance"
+        },
         "sparql-service-description-graph": {
             "@id": "http://www.w3.org/ns/sparql-service-description#graph",
             "@type": "@id"
